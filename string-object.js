@@ -62,11 +62,36 @@
 // console.log(realFriend.join('-'));
 
 
-const first = "Abid";
-const last = "Naba";
+// const first = "Abid";
+// const last = "Naba";
 
-const fullName = first + " "+  last;
-const fullName1 = first.concat("-","|",last.concat("-")) ;
-// console.log(fullName);
-console.log(fullName1);
-console.log(fullName1.length);
+// // const fullName = first + " "+  last;
+// // const fullName1 = first.concat("-","|",last.concat("-")) ;
+// // // console.log(fullName);
+// // console.log(fullName1);
+// // console.log(fullName1.length);
+
+
+// console.log(last.includes("a"));
+
+// const sentence = "I am a ABC students";
+
+// // for (var letter of sentence){
+// //     console.log(letter);
+// // };
+
+// let reverse =  " "
+// let abc = " "
+// for (const letter of sentence){
+//     reverse = letter + reverse;
+// }
+// console.log(reverse);
+
+var sentence = "Hi there! How are you Guys"
+let rev = " "
+for (let i = 0; i < sentence.length; i++){
+    // console.log(sentence[i]);
+    const letter = sentence[i];
+    rev = letter + rev;
+}
+console.log(rev);
