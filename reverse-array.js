@@ -40,7 +40,11 @@ const abc = numbers.reverse(); // main array
 // console.log(rev);
 
 
-const num = [1,2,3,4,5,6,7];
-for(i = num.length-1; i >= 0 ; i--){
-    console.log(num[i]);
-};
+// const num = [1,2,3,4,5,6,7];
+// for(i = num.length-1; i >= 0 ; i--){
+//     console.log(num[i]);
+// };
+
+const n = [1,2,3,4,5,6];
+ a = n.reverse();
+ console.log(a);
