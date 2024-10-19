@@ -49,12 +49,86 @@
  
 //  console.log(bill,bill2)
 
-function doMath(n1,n2){
-    const s = n1 + n2;
-    const d = n1 - n2; 
-    const m = s * d; 
-    const r = m / 2; 
-    return r;
-}
-const abc = doMath(20,10);
-console.log(abc)
+// function doMath(n1,n2){
+//     const s = n1 + n2;
+//     const d = n1 - n2; 
+//     const m = s * d; 
+//     const r = m / 2; 
+//     return r;
+// }
+// const abc = doMath(20,10);
+// console.log(abc);
+
+//Note: Str Parameter 
+
+// function evenSizeString(str){
+//     const size = str.length;
+//     console.log(str,size);
+// }
+// evenSizeString("Dhaka");
+// evenSizeString("Thakurgaon");
+
+
+// function DorT(number,doDouble){
+//     if(doDouble=== true){
+//         const result = number * 2;
+//         return result;
+//     }
+//     else{
+//         const result = number * 3;
+//         return result;
+//     }
+// }
+// console.log(DorT(5,true));
+// console.log(DorT(5,false));
+
+// function sumOfNumbers(numbers){
+//     const len = numbers.length;
+//     return len;
+// }
+
+// console.log(sumOfNumbers([12,14,1,2,33,12341,5]));
+// //Here we use 3rd bracet in function call
+
+
+// function sumOfNumbers(numbers){
+//     let sum = 0;
+//     for (const number of numbers){
+//         // console.log(number);
+//         sum = sum + number;
+//     }
+//     return sum;
+// }
+
+// const numbers = [1,2,3,4,5,6,7];
+// const sum = sumOfNumbers(numbers)
+// console.log(sum)
+
+
+// function numberOfEven(numbers){
+//     let even = [];
+//     for (const number of numbers){
+//         if(number % 2 === 0){
+//             even.push(number);
+//         }
+//     }
+//     return even;
+// }
+// const numbers = [1,2,3,4,5,6,7]
+// const even = numberOfEven(numbers)
+// console.log(even); 
+
+
+// function evenNumber(numbers){
+//     let sum = 0;
+//     for(const number of numbers){
+//         if (number % 2 === 0){
+//             sum = sum + number;
+//         }
+//     }
+//     return sum;
+// }
+
+// const numbers = [1,2,3,4,5,6,7];
+// const abc = evenNumber(numbers);
+// console.log(abc);
