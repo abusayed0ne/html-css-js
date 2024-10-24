@@ -1,5 +1,5 @@
 # Basic Practice in HTML - CSS - JAVASCRIPT 
-## Also use comment for better understand 
+## Also I use comments for better understand 
 ## You can debug for clear visualization 
 
 # Topics 
@@ -10,4 +10,5 @@
 - Array - Reverse Array 
 - break - continue statement 
 - function 
-- sort 
+- sort
+- swap
